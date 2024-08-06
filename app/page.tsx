@@ -57,7 +57,7 @@ export default function Home() {
 
   const [enablePage, setEnablePage] = useState(true);
   return (
-    <main className="bg-white flex min-h-screen flex-col items-center justify-between p-24 text-2xl font-sans opacity-80">
+    <main className="bg-white flex min-h-screen flex-col items-center justify-between p-20 text-2xl font-sans opacity-80">
         { enablePage ? <FirstPage setEnablePage={setEnablePage}/> : <SecondPage setEnablePage={setEnablePage}/> }
     </main>
   );
